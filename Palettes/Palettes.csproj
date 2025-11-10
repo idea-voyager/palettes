@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <LangVersion>12</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>PatioCode.Palettes</AssemblyName>
+        <RootNamespace>PatioCode.Palettes</RootNamespace>
+    </PropertyGroup>
+
+</Project>

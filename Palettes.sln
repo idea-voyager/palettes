@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palettes.WPF", "Palettes.WPF\Palettes.WPF.csproj", "{EAEC5B2E-6A10-4270-A81D-CD9B38C1E8FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palettes.WPF.Preview", "Palettes.WPF.Preview\Palettes.WPF.Preview.csproj", "{E0DA241E-0BA8-44DB-AC65-62A9B200162F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palettes", "Palettes\Palettes.csproj", "{F1F25C73-2FF7-4C07-8A83-60BB22669204}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAEC5B2E-6A10-4270-A81D-CD9B38C1E8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAEC5B2E-6A10-4270-A81D-CD9B38C1E8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAEC5B2E-6A10-4270-A81D-CD9B38C1E8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAEC5B2E-6A10-4270-A81D-CD9B38C1E8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0DA241E-0BA8-44DB-AC65-62A9B200162F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DA241E-0BA8-44DB-AC65-62A9B200162F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DA241E-0BA8-44DB-AC65-62A9B200162F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DA241E-0BA8-44DB-AC65-62A9B200162F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F25C73-2FF7-4C07-8A83-60BB22669204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F25C73-2FF7-4C07-8A83-60BB22669204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F25C73-2FF7-4C07-8A83-60BB22669204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F25C73-2FF7-4C07-8A83-60BB22669204}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
