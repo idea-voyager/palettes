@@ -1,0 +1,23 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/Yellow.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-Yellow-100" Color="{StaticResource Color-Yellow-100}"/>
+    <SolidColorBrush x:Key="Brush-Yellow-098" Color="{StaticResource Color-Yellow-098}"/>
+    <SolidColorBrush x:Key="Brush-Yellow-095" Color="{StaticResource Color-Yellow-095}"/>
+    <SolidColorBrush x:Key="Brush-Yellow-090" Color="{StaticResource Color-Yellow-090}"/>
+    <SolidColorBrush x:Key="Brush-Yellow-080" Color="{StaticResource Color-Yellow-080}"/>
+    <SolidColorBrush x:Key="Brush-Yellow-070" Color="{StaticResource Color-Yellow-070}"/>
+    <SolidColorBrush x:Key="Brush-Yellow-060" Color="{StaticResource Color-Yellow-060}"/>
+    <SolidColorBrush x:Key="Brush-Yellow-050" Color="{StaticResource Color-Yellow-050}"/>
+    <SolidColorBrush x:Key="Brush-Yellow-040" Color="{StaticResource Color-Yellow-040}"/>
+    <SolidColorBrush x:Key="Brush-Yellow-030" Color="{StaticResource Color-Yellow-030}"/>
+    <SolidColorBrush x:Key="Brush-Yellow-020" Color="{StaticResource Color-Yellow-020}"/>
+    <SolidColorBrush x:Key="Brush-Yellow-010" Color="{StaticResource Color-Yellow-010}"/>
+    <SolidColorBrush x:Key="Brush-Yellow-000" Color="{StaticResource Color-Yellow-000}"/>
+    
+</ResourceDictionary>

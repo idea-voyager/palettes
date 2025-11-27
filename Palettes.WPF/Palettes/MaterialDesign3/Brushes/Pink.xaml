@@ -1,0 +1,23 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/Pink.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-Pink-100" Color="{StaticResource Color-Pink-100}"/>
+    <SolidColorBrush x:Key="Brush-Pink-098" Color="{StaticResource Color-Pink-098}"/>
+    <SolidColorBrush x:Key="Brush-Pink-095" Color="{StaticResource Color-Pink-095}"/>
+    <SolidColorBrush x:Key="Brush-Pink-090" Color="{StaticResource Color-Pink-090}"/>
+    <SolidColorBrush x:Key="Brush-Pink-080" Color="{StaticResource Color-Pink-080}"/>
+    <SolidColorBrush x:Key="Brush-Pink-070" Color="{StaticResource Color-Pink-070}"/>
+    <SolidColorBrush x:Key="Brush-Pink-060" Color="{StaticResource Color-Pink-060}"/>
+    <SolidColorBrush x:Key="Brush-Pink-050" Color="{StaticResource Color-Pink-050}"/>
+    <SolidColorBrush x:Key="Brush-Pink-040" Color="{StaticResource Color-Pink-040}"/>
+    <SolidColorBrush x:Key="Brush-Pink-030" Color="{StaticResource Color-Pink-030}"/>
+    <SolidColorBrush x:Key="Brush-Pink-020" Color="{StaticResource Color-Pink-020}"/>
+    <SolidColorBrush x:Key="Brush-Pink-010" Color="{StaticResource Color-Pink-010}"/>
+    <SolidColorBrush x:Key="Brush-Pink-000" Color="{StaticResource Color-Pink-000}"/>
+    
+</ResourceDictionary>

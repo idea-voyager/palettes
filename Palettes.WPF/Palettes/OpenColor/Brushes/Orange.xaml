@@ -1,0 +1,20 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/Orange.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-Orange-0" Color="{StaticResource Color-Orange-0}"/>
+    <SolidColorBrush x:Key="Brush-Orange-1" Color="{StaticResource Color-Orange-1}"/>
+    <SolidColorBrush x:Key="Brush-Orange-2" Color="{StaticResource Color-Orange-2}"/>
+    <SolidColorBrush x:Key="Brush-Orange-3" Color="{StaticResource Color-Orange-3}"/>
+    <SolidColorBrush x:Key="Brush-Orange-4" Color="{StaticResource Color-Orange-4}"/>
+    <SolidColorBrush x:Key="Brush-Orange-5" Color="{StaticResource Color-Orange-5}"/>
+    <SolidColorBrush x:Key="Brush-Orange-6" Color="{StaticResource Color-Orange-6}"/>
+    <SolidColorBrush x:Key="Brush-Orange-7" Color="{StaticResource Color-Orange-7}"/>
+    <SolidColorBrush x:Key="Brush-Orange-8" Color="{StaticResource Color-Orange-8}"/>
+    <SolidColorBrush x:Key="Brush-Orange-9" Color="{StaticResource Color-Orange-9}"/>
+    
+</ResourceDictionary>

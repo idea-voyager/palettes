@@ -1,0 +1,20 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="OpenColor/Colors/Blue.xaml"/>
+        <ResourceDictionary Source="OpenColor/Colors/Cyan.xaml"/>
+        <ResourceDictionary Source="OpenColor/Colors/Grape.xaml"/>
+        <ResourceDictionary Source="OpenColor/Colors/Gray.xaml"/>
+        <ResourceDictionary Source="OpenColor/Colors/Green.xaml"/>
+        <ResourceDictionary Source="OpenColor/Colors/Indigo.xaml"/>
+        <ResourceDictionary Source="OpenColor/Colors/Lime.xaml"/>
+        <ResourceDictionary Source="OpenColor/Colors/Orange.xaml"/>
+        <ResourceDictionary Source="OpenColor/Colors/Pink.xaml"/>
+        <ResourceDictionary Source="OpenColor/Colors/Red.xaml"/>
+        <ResourceDictionary Source="OpenColor/Colors/Teal.xaml"/>
+        <ResourceDictionary Source="OpenColor/Colors/Yellow.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+</ResourceDictionary>

@@ -1,0 +1,20 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/Grape.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-Grape-0" Color="{StaticResource Color-Grape-0}"/>
+    <SolidColorBrush x:Key="Brush-Grape-1" Color="{StaticResource Color-Grape-1}"/>
+    <SolidColorBrush x:Key="Brush-Grape-2" Color="{StaticResource Color-Grape-2}"/>
+    <SolidColorBrush x:Key="Brush-Grape-3" Color="{StaticResource Color-Grape-3}"/>
+    <SolidColorBrush x:Key="Brush-Grape-4" Color="{StaticResource Color-Grape-4}"/>
+    <SolidColorBrush x:Key="Brush-Grape-5" Color="{StaticResource Color-Grape-5}"/>
+    <SolidColorBrush x:Key="Brush-Grape-6" Color="{StaticResource Color-Grape-6}"/>
+    <SolidColorBrush x:Key="Brush-Grape-7" Color="{StaticResource Color-Grape-7}"/>
+    <SolidColorBrush x:Key="Brush-Grape-8" Color="{StaticResource Color-Grape-8}"/>
+    <SolidColorBrush x:Key="Brush-Grape-9" Color="{StaticResource Color-Grape-9}"/>
+    
+</ResourceDictionary>

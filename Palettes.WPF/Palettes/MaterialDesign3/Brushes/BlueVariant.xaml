@@ -1,0 +1,23 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/BlueVariant.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-BlueVariant-100" Color="{StaticResource Color-BlueVariant-100}"/>
+    <SolidColorBrush x:Key="Brush-BlueVariant-098" Color="{StaticResource Color-BlueVariant-098}"/>
+    <SolidColorBrush x:Key="Brush-BlueVariant-095" Color="{StaticResource Color-BlueVariant-095}"/>
+    <SolidColorBrush x:Key="Brush-BlueVariant-090" Color="{StaticResource Color-BlueVariant-090}"/>
+    <SolidColorBrush x:Key="Brush-BlueVariant-080" Color="{StaticResource Color-BlueVariant-080}"/>
+    <SolidColorBrush x:Key="Brush-BlueVariant-070" Color="{StaticResource Color-BlueVariant-070}"/>
+    <SolidColorBrush x:Key="Brush-BlueVariant-060" Color="{StaticResource Color-BlueVariant-060}"/>
+    <SolidColorBrush x:Key="Brush-BlueVariant-050" Color="{StaticResource Color-BlueVariant-050}"/>
+    <SolidColorBrush x:Key="Brush-BlueVariant-040" Color="{StaticResource Color-BlueVariant-040}"/>
+    <SolidColorBrush x:Key="Brush-BlueVariant-030" Color="{StaticResource Color-BlueVariant-030}"/>
+    <SolidColorBrush x:Key="Brush-BlueVariant-020" Color="{StaticResource Color-BlueVariant-020}"/>
+    <SolidColorBrush x:Key="Brush-BlueVariant-010" Color="{StaticResource Color-BlueVariant-010}"/>
+    <SolidColorBrush x:Key="Brush-BlueVariant-000" Color="{StaticResource Color-BlueVariant-000}"/>
+    
+</ResourceDictionary>

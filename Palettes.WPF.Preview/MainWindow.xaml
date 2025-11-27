@@ -24,8 +24,23 @@
         </TabItem>
         
         <TabItem
-            Header="Material Design">
-            <views:MaterialDesignPalette/>
+            Header="Bootstrap">
+            <views:BootstrapPalette/>
+        </TabItem>
+        
+        <TabItem
+            Header="Material Design 2">
+            <views:MaterialDesign2Palette/>
+        </TabItem>
+        
+        <TabItem
+            Header="Material Design 3">
+            <views:MaterialDesign3Palette/>
+        </TabItem>
+        
+        <TabItem
+            Header="Open Color">
+            <views:OpenColorPalette/>
         </TabItem>
     </TabControl>
 </Window>

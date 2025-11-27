@@ -1,0 +1,27 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="MaterialDesign2/Colors/Amber.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/Blue.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/BlueGray.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/Brown.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/Cyan.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/DeepOrange.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/DeepPurple.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/Gray.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/Green.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/Indigo.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/LightBlue.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/LightGreen.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/Lime.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/Orange.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/Pink.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/Purple.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/Red.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/Teal.xaml"/>
+        <ResourceDictionary Source="MaterialDesign2/Colors/Yellow.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+</ResourceDictionary>

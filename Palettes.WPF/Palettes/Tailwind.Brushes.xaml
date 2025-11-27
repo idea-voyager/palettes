@@ -1,0 +1,33 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Tailwind/Brushes/Amber.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Blue.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Cyan.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Emerald.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Fuchsia.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Gray.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Green.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Indigo.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Lime.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Neutral.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Orange.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Pink.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Purple.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Red.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Rose.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Sky.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Slate.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Stone.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Teal.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Violet.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Yellow.xaml"/>
+        <ResourceDictionary Source="Tailwind/Brushes/Zinc.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-White" Color="#fff"/>
+    <SolidColorBrush x:Key="Brush-Black" Color="#000"/>
+    
+</ResourceDictionary>

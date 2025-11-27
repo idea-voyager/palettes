@@ -1,0 +1,23 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/Orange.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-Orange-100" Color="{StaticResource Color-Orange-100}"/>
+    <SolidColorBrush x:Key="Brush-Orange-098" Color="{StaticResource Color-Orange-098}"/>
+    <SolidColorBrush x:Key="Brush-Orange-095" Color="{StaticResource Color-Orange-095}"/>
+    <SolidColorBrush x:Key="Brush-Orange-090" Color="{StaticResource Color-Orange-090}"/>
+    <SolidColorBrush x:Key="Brush-Orange-080" Color="{StaticResource Color-Orange-080}"/>
+    <SolidColorBrush x:Key="Brush-Orange-070" Color="{StaticResource Color-Orange-070}"/>
+    <SolidColorBrush x:Key="Brush-Orange-060" Color="{StaticResource Color-Orange-060}"/>
+    <SolidColorBrush x:Key="Brush-Orange-050" Color="{StaticResource Color-Orange-050}"/>
+    <SolidColorBrush x:Key="Brush-Orange-040" Color="{StaticResource Color-Orange-040}"/>
+    <SolidColorBrush x:Key="Brush-Orange-030" Color="{StaticResource Color-Orange-030}"/>
+    <SolidColorBrush x:Key="Brush-Orange-020" Color="{StaticResource Color-Orange-020}"/>
+    <SolidColorBrush x:Key="Brush-Orange-010" Color="{StaticResource Color-Orange-010}"/>
+    <SolidColorBrush x:Key="Brush-Orange-000" Color="{StaticResource Color-Orange-000}"/>
+    
+</ResourceDictionary>

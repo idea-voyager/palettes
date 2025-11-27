@@ -1,0 +1,21 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/Fuchsia.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-Fuchsia-050" Color="{StaticResource Color-Fuchsia-050}"/>
+    <SolidColorBrush x:Key="Brush-Fuchsia-100" Color="{StaticResource Color-Fuchsia-100}"/>
+    <SolidColorBrush x:Key="Brush-Fuchsia-200" Color="{StaticResource Color-Fuchsia-200}"/>
+    <SolidColorBrush x:Key="Brush-Fuchsia-300" Color="{StaticResource Color-Fuchsia-300}"/>
+    <SolidColorBrush x:Key="Brush-Fuchsia-400" Color="{StaticResource Color-Fuchsia-400}"/>
+    <SolidColorBrush x:Key="Brush-Fuchsia-500" Color="{StaticResource Color-Fuchsia-500}"/>
+    <SolidColorBrush x:Key="Brush-Fuchsia-600" Color="{StaticResource Color-Fuchsia-600}"/>
+    <SolidColorBrush x:Key="Brush-Fuchsia-700" Color="{StaticResource Color-Fuchsia-700}"/>
+    <SolidColorBrush x:Key="Brush-Fuchsia-800" Color="{StaticResource Color-Fuchsia-800}"/>
+    <SolidColorBrush x:Key="Brush-Fuchsia-900" Color="{StaticResource Color-Fuchsia-900}"/>
+    <SolidColorBrush x:Key="Brush-Fuchsia-950" Color="{StaticResource Color-Fuchsia-950}"/>
+    
+</ResourceDictionary>

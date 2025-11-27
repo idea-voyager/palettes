@@ -1,0 +1,21 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/Zinc.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-Zinc-050" Color="{StaticResource Color-Zinc-050}"/>
+    <SolidColorBrush x:Key="Brush-Zinc-100" Color="{StaticResource Color-Zinc-100}"/>
+    <SolidColorBrush x:Key="Brush-Zinc-200" Color="{StaticResource Color-Zinc-200}"/>
+    <SolidColorBrush x:Key="Brush-Zinc-300" Color="{StaticResource Color-Zinc-300}"/>
+    <SolidColorBrush x:Key="Brush-Zinc-400" Color="{StaticResource Color-Zinc-400}"/>
+    <SolidColorBrush x:Key="Brush-Zinc-500" Color="{StaticResource Color-Zinc-500}"/>
+    <SolidColorBrush x:Key="Brush-Zinc-600" Color="{StaticResource Color-Zinc-600}"/>
+    <SolidColorBrush x:Key="Brush-Zinc-700" Color="{StaticResource Color-Zinc-700}"/>
+    <SolidColorBrush x:Key="Brush-Zinc-800" Color="{StaticResource Color-Zinc-800}"/>
+    <SolidColorBrush x:Key="Brush-Zinc-900" Color="{StaticResource Color-Zinc-900}"/>
+    <SolidColorBrush x:Key="Brush-Zinc-950" Color="{StaticResource Color-Zinc-950}"/>
+    
+</ResourceDictionary>

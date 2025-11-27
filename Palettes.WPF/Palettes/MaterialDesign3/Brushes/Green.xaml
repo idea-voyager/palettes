@@ -1,0 +1,23 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/Green.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-Green-100" Color="{StaticResource Color-Green-100}"/>
+    <SolidColorBrush x:Key="Brush-Green-098" Color="{StaticResource Color-Green-098}"/>
+    <SolidColorBrush x:Key="Brush-Green-095" Color="{StaticResource Color-Green-095}"/>
+    <SolidColorBrush x:Key="Brush-Green-090" Color="{StaticResource Color-Green-090}"/>
+    <SolidColorBrush x:Key="Brush-Green-080" Color="{StaticResource Color-Green-080}"/>
+    <SolidColorBrush x:Key="Brush-Green-070" Color="{StaticResource Color-Green-070}"/>
+    <SolidColorBrush x:Key="Brush-Green-060" Color="{StaticResource Color-Green-060}"/>
+    <SolidColorBrush x:Key="Brush-Green-050" Color="{StaticResource Color-Green-050}"/>
+    <SolidColorBrush x:Key="Brush-Green-040" Color="{StaticResource Color-Green-040}"/>
+    <SolidColorBrush x:Key="Brush-Green-030" Color="{StaticResource Color-Green-030}"/>
+    <SolidColorBrush x:Key="Brush-Green-020" Color="{StaticResource Color-Green-020}"/>
+    <SolidColorBrush x:Key="Brush-Green-010" Color="{StaticResource Color-Green-010}"/>
+    <SolidColorBrush x:Key="Brush-Green-000" Color="{StaticResource Color-Green-000}"/>
+    
+</ResourceDictionary>

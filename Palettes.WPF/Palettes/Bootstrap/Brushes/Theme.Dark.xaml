@@ -1,0 +1,39 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/Theme.Dark.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-Body-Color-Dark"           Color="{StaticResource Color-Body-Color-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Body-Background-Dark"      Color="{StaticResource Color-Body-Background-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Border-Color-Dark"         Color="{StaticResource Color-Border-Color-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Emphasis-Color-Dark"       Color="{StaticResource Color-Emphasis-Color-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Secondary-Color-Dark"      Color="{StaticResource Color-Secondary-Color-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Secondary-Background-Dark" Color="{StaticResource Color-Secondary-Background-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Tertiary-Color-Dark"       Color="{StaticResource Color-Tertiary-Color-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Tertiary-Background-Dark"  Color="{StaticResource Color-Tertiary-Background-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Primary-Background-Dark"   Color="{StaticResource Color-Primary-Background-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Primary-Border-Dark"       Color="{StaticResource Color-Primary-Border-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Primary-Text-Dark"         Color="{StaticResource Color-Primary-Text-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Success-Background-Dark"   Color="{StaticResource Color-Success-Background-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Success-Border-Dark"       Color="{StaticResource Color-Success-Border-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Success-Text-Dark"         Color="{StaticResource Color-Success-Text-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Danger-Background-Dark"    Color="{StaticResource Color-Danger-Background-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Danger-Border-Dark"        Color="{StaticResource Color-Danger-Border-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Danger-Text-Dark"          Color="{StaticResource Color-Danger-Text-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Warning-Background-Dark"   Color="{StaticResource Color-Warning-Background-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Warning-Border-Dark"       Color="{StaticResource Color-Warning-Border-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Warning-Text-Dark"         Color="{StaticResource Color-Warning-Text-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Info-Background-Dark"      Color="{StaticResource Color-Info-Background-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Info-Border-Dark"          Color="{StaticResource Color-Info-Border-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Info-Text-Dark"            Color="{StaticResource Color-Info-Text-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Light-Background-Dark"     Color="{StaticResource Color-Light-Background-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Light-Border-Dark"         Color="{StaticResource Color-Light-Border-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Light-Text-Dark"           Color="{StaticResource Color-Light-Text-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Dark-Background-Dark"      Color="{StaticResource Color-Dark-Background-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Dark-Border-Dark"          Color="{StaticResource Color-Dark-Border-Dark}"/>
+    <SolidColorBrush x:Key="Brush-Dark-Text-Dark"            Color="{StaticResource Color-Dark-Text-Dark}"/>
+    
+</ResourceDictionary>

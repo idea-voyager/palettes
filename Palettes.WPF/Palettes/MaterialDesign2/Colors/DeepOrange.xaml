@@ -1,0 +1,20 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Color x:Key="Color-DeepOrange-050"> #FBE9E7</Color>
+    <Color x:Key="Color-DeepOrange-100"> #FFCCBC</Color>
+    <Color x:Key="Color-DeepOrange-200"> #FFAB91</Color>
+    <Color x:Key="Color-DeepOrange-300"> #FF8A65</Color>
+    <Color x:Key="Color-DeepOrange-400"> #FF7043</Color>
+    <Color x:Key="Color-DeepOrange-500"> #FF5722</Color>
+    <Color x:Key="Color-DeepOrange-600"> #F4511E</Color>
+    <Color x:Key="Color-DeepOrange-700"> #E64A19</Color>
+    <Color x:Key="Color-DeepOrange-800"> #D84315</Color>
+    <Color x:Key="Color-DeepOrange-900"> #BF360C</Color>
+    <Color x:Key="Color-DeepOrange-A100">#FF9E80</Color>
+    <Color x:Key="Color-DeepOrange-A200">#FF6E40</Color>
+    <Color x:Key="Color-DeepOrange-A400">#FF3D00</Color>
+    <Color x:Key="Color-DeepOrange-A700">#DD2C00</Color>
+    
+</ResourceDictionary>
