@@ -1,0 +1,23 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Bootstrap/Brushes/Theme.xaml"/>
+        <ResourceDictionary Source="Bootstrap/Brushes/Theme.Light.xaml"/>
+        <ResourceDictionary Source="Bootstrap/Brushes/Theme.Dark.xaml"/>
+        
+        <ResourceDictionary Source="Bootstrap/Brushes/Blue.xaml"/>
+        <ResourceDictionary Source="Bootstrap/Brushes/Cyan.xaml"/>
+        <ResourceDictionary Source="Bootstrap/Brushes/Gray.xaml"/>
+        <ResourceDictionary Source="Bootstrap/Brushes/Green.xaml"/>
+        <ResourceDictionary Source="Bootstrap/Brushes/Indigo.xaml"/>
+        <ResourceDictionary Source="Bootstrap/Brushes/Orange.xaml"/>
+        <ResourceDictionary Source="Bootstrap/Brushes/Pink.xaml"/>
+        <ResourceDictionary Source="Bootstrap/Brushes/Purple.xaml"/>
+        <ResourceDictionary Source="Bootstrap/Brushes/Red.xaml"/>
+        <ResourceDictionary Source="Bootstrap/Brushes/Teal.xaml"/>
+        <ResourceDictionary Source="Bootstrap/Brushes/Yellow.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+</ResourceDictionary>

@@ -1,0 +1,46 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Color x:Key="Color-Body-Color-Dark">          #212529</Color>
+    <Color x:Key="Color-Body-Background-Dark">     #FFFFFF</Color>
+    
+    <Color x:Key="Color-Border-Color-Dark">        #DEE2E6</Color>
+    
+    <Color x:Key="Color-Emphasis-Color-Dark">      #000000</Color>
+    
+    <Color x:Key="Color-Secondary-Color-Dark">     #595C5F</Color>
+    <Color x:Key="Color-Secondary-Background-Dark">#E9ECEF</Color>
+    
+    <Color x:Key="Color-Tertiary-Color-Dark">      #909294</Color>
+    <Color x:Key="Color-Tertiary-Background-Dark"> #F8F9FA</Color>
+    
+    <Color x:Key="Color-Primary-Background-Dark">  #CFE2FF</Color>
+    <Color x:Key="Color-Primary-Border-Dark">      #9EC5FE</Color>
+    <Color x:Key="Color-Primary-Text-Dark">        #052C65</Color>
+    
+    <Color x:Key="Color-Success-Background-Dark">  #D1E7DD</Color>
+    <Color x:Key="Color-Success-Border-Dark">      #A3CFBB</Color>
+    <Color x:Key="Color-Success-Text-Dark">        #0A3622</Color>
+    
+    <Color x:Key="Color-Danger-Background-Dark">   #F8D7DA</Color>
+    <Color x:Key="Color-Danger-Border-Dark">       #F1AEB5</Color>
+    <Color x:Key="Color-Danger-Text-Dark">         #581541</Color>
+    
+    <Color x:Key="Color-Warning-Background-Dark">  #FFF3CD</Color>
+    <Color x:Key="Color-Warning-Border-Dark">      #FFE69C</Color>
+    <Color x:Key="Color-Warning-Text-Dark">        #664D03</Color>
+    
+    <Color x:Key="Color-Info-Background-Dark">     #CFF4FC</Color>
+    <Color x:Key="Color-Info-Border-Dark">         #9EEAF9</Color>
+    <Color x:Key="Color-Info-Text-Dark">           #055160</Color>
+    
+    <Color x:Key="Color-Light-Background-Dark">    #FCFCFD</Color>
+    <Color x:Key="Color-Light-Border-Dark">        #E9ECEF</Color>
+    <Color x:Key="Color-Light-Text-Dark">          #495057</Color>
+    
+    <Color x:Key="Color-Dark-Background-Dark">     #CED4DA</Color>
+    <Color x:Key="Color-Dark-Border-Dark">         #ADB5BD</Color>
+    <Color x:Key="Color-Dark-Text-Dark">           #495057</Color>
+    
+</ResourceDictionary>

@@ -1,0 +1,20 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/Violet.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-Violet-0"  Color="{StaticResource Color-Violet-0}"/>
+    <SolidColorBrush x:Key="Brush-Violet-1"  Color="{StaticResource Color-Violet-1}"/>
+    <SolidColorBrush x:Key="Brush-Violet-2"  Color="{StaticResource Color-Violet-2}"/>
+    <SolidColorBrush x:Key="Brush-Violet-3"  Color="{StaticResource Color-Violet-3}"/>
+    <SolidColorBrush x:Key="Brush-Violet-4"  Color="{StaticResource Color-Violet-4}"/>
+    <SolidColorBrush x:Key="Brush-Violet-5"  Color="{StaticResource Color-Violet-5}"/>
+    <SolidColorBrush x:Key="Brush-Violet-6"  Color="{StaticResource Color-Violet-6}"/>
+    <SolidColorBrush x:Key="Brush-Violet-7"  Color="{StaticResource Color-Violet-7}"/>
+    <SolidColorBrush x:Key="Brush-Violet-8"  Color="{StaticResource Color-Violet-8}"/>
+    <SolidColorBrush x:Key="Brush-Violet-9"  Color="{StaticResource Color-Violet-9}"/>
+    
+</ResourceDictionary>

@@ -1,0 +1,20 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/Red.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-Red-0" Color="{StaticResource Color-Red-0}"/>
+    <SolidColorBrush x:Key="Brush-Red-1" Color="{StaticResource Color-Red-1}"/>
+    <SolidColorBrush x:Key="Brush-Red-2" Color="{StaticResource Color-Red-2}"/>
+    <SolidColorBrush x:Key="Brush-Red-3" Color="{StaticResource Color-Red-3}"/>
+    <SolidColorBrush x:Key="Brush-Red-4" Color="{StaticResource Color-Red-4}"/>
+    <SolidColorBrush x:Key="Brush-Red-5" Color="{StaticResource Color-Red-5}"/>
+    <SolidColorBrush x:Key="Brush-Red-6" Color="{StaticResource Color-Red-6}"/>
+    <SolidColorBrush x:Key="Brush-Red-7" Color="{StaticResource Color-Red-7}"/>
+    <SolidColorBrush x:Key="Brush-Red-8" Color="{StaticResource Color-Red-8}"/>
+    <SolidColorBrush x:Key="Brush-Red-9" Color="{StaticResource Color-Red-9}"/>
+    
+</ResourceDictionary>

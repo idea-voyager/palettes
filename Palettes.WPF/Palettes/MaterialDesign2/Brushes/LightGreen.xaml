@@ -1,0 +1,24 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/LightGreen.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-LightGreen-050"  Color="{StaticResource Color-LightGreen-050}"/>
+    <SolidColorBrush x:Key="Brush-LightGreen-100"  Color="{StaticResource Color-LightGreen-100}"/>
+    <SolidColorBrush x:Key="Brush-LightGreen-200"  Color="{StaticResource Color-LightGreen-200}"/>
+    <SolidColorBrush x:Key="Brush-LightGreen-300"  Color="{StaticResource Color-LightGreen-300}"/>
+    <SolidColorBrush x:Key="Brush-LightGreen-400"  Color="{StaticResource Color-LightGreen-400}"/>
+    <SolidColorBrush x:Key="Brush-LightGreen-500"  Color="{StaticResource Color-LightGreen-500}"/>
+    <SolidColorBrush x:Key="Brush-LightGreen-600"  Color="{StaticResource Color-LightGreen-600}"/>
+    <SolidColorBrush x:Key="Brush-LightGreen-700"  Color="{StaticResource Color-LightGreen-700}"/>
+    <SolidColorBrush x:Key="Brush-LightGreen-800"  Color="{StaticResource Color-LightGreen-800}"/>
+    <SolidColorBrush x:Key="Brush-LightGreen-900"  Color="{StaticResource Color-LightGreen-900}"/>
+    <SolidColorBrush x:Key="Brush-LightGreen-A100" Color="{StaticResource Color-LightGreen-A100}"/>
+    <SolidColorBrush x:Key="Brush-LightGreen-A200" Color="{StaticResource Color-LightGreen-A200}"/>
+    <SolidColorBrush x:Key="Brush-LightGreen-A400" Color="{StaticResource Color-LightGreen-A400}"/>
+    <SolidColorBrush x:Key="Brush-LightGreen-A700" Color="{StaticResource Color-LightGreen-A700}"/>
+    
+</ResourceDictionary>

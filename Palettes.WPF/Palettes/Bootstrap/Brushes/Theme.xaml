@@ -1,0 +1,17 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/Theme.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-Primary" Color="{StaticResource Color-Primary}"/>
+    <SolidColorBrush x:Key="Brush-Success" Color="{StaticResource Color-Success}"/>
+    <SolidColorBrush x:Key="Brush-Danger"  Color="{StaticResource Color-Danger}"/>
+    <SolidColorBrush x:Key="Brush-Warning" Color="{StaticResource Color-Warning}"/>
+    <SolidColorBrush x:Key="Brush-Info"    Color="{StaticResource Color-Info}"/>
+    <SolidColorBrush x:Key="Brush-Light"   Color="{StaticResource Color-Light}"/>
+    <SolidColorBrush x:Key="Brush-Dark"    Color="{StaticResource Color-Dark}"/>
+    
+</ResourceDictionary>

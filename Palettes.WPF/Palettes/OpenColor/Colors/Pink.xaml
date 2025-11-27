@@ -1,0 +1,16 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Color x:Key="Color-Pink-0">#fff0f6</Color>
+    <Color x:Key="Color-Pink-1">#ffdeeb</Color>
+    <Color x:Key="Color-Pink-2">#fcc2d7</Color>
+    <Color x:Key="Color-Pink-3">#faa2c1</Color>
+    <Color x:Key="Color-Pink-4">#f783ac</Color>
+    <Color x:Key="Color-Pink-5">#f06595</Color>
+    <Color x:Key="Color-Pink-6">#e64980</Color>
+    <Color x:Key="Color-Pink-7">#d6336c</Color>
+    <Color x:Key="Color-Pink-8">#c2255c</Color>
+    <Color x:Key="Color-Pink-9">#a61e4d</Color>
+    
+</ResourceDictionary>

@@ -1,0 +1,16 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Color x:Key="Color-Lime-0">#f4fce3</Color>
+    <Color x:Key="Color-Lime-1">#e9fac8</Color>
+    <Color x:Key="Color-Lime-2">#d8f5a2</Color>
+    <Color x:Key="Color-Lime-3">#c0eb75</Color>
+    <Color x:Key="Color-Lime-4">#a9e34b</Color>
+    <Color x:Key="Color-Lime-5">#94d82d</Color>
+    <Color x:Key="Color-Lime-6">#82c91e</Color>
+    <Color x:Key="Color-Lime-7">#74b816</Color>
+    <Color x:Key="Color-Lime-8">#66a80f</Color>
+    <Color x:Key="Color-Lime-9">#5c940d</Color>
+    
+</ResourceDictionary>

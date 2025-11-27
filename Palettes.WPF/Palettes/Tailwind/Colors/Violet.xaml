@@ -1,0 +1,17 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Color x:Key="Color-Violet-050">#f5f3ff</Color>
+    <Color x:Key="Color-Violet-100">#ede9fe</Color>
+    <Color x:Key="Color-Violet-200">#ddd6fe</Color>
+    <Color x:Key="Color-Violet-300">#c4b5fd</Color>
+    <Color x:Key="Color-Violet-400">#a78bfa</Color>
+    <Color x:Key="Color-Violet-500">#8b5cf6</Color>
+    <Color x:Key="Color-Violet-600">#7c3aed</Color>
+    <Color x:Key="Color-Violet-700">#6d28d9</Color>
+    <Color x:Key="Color-Violet-800">#5b21b6</Color>
+    <Color x:Key="Color-Violet-900">#4c1d95</Color>
+    <Color x:Key="Color-Violet-950">#2e1065</Color>
+    
+</ResourceDictionary>

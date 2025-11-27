@@ -1,0 +1,20 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/Pink.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-Pink-0" Color="{StaticResource Color-Pink-0}"/>
+    <SolidColorBrush x:Key="Brush-Pink-1" Color="{StaticResource Color-Pink-1}"/>
+    <SolidColorBrush x:Key="Brush-Pink-2" Color="{StaticResource Color-Pink-2}"/>
+    <SolidColorBrush x:Key="Brush-Pink-3" Color="{StaticResource Color-Pink-3}"/>
+    <SolidColorBrush x:Key="Brush-Pink-4" Color="{StaticResource Color-Pink-4}"/>
+    <SolidColorBrush x:Key="Brush-Pink-5" Color="{StaticResource Color-Pink-5}"/>
+    <SolidColorBrush x:Key="Brush-Pink-6" Color="{StaticResource Color-Pink-6}"/>
+    <SolidColorBrush x:Key="Brush-Pink-7" Color="{StaticResource Color-Pink-7}"/>
+    <SolidColorBrush x:Key="Brush-Pink-8" Color="{StaticResource Color-Pink-8}"/>
+    <SolidColorBrush x:Key="Brush-Pink-9" Color="{StaticResource Color-Pink-9}"/>
+    
+</ResourceDictionary>

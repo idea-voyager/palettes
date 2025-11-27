@@ -1,0 +1,17 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Color x:Key="Color-Slate-050">#f8fafc</Color>
+    <Color x:Key="Color-Slate-100">#f1f5f9</Color>
+    <Color x:Key="Color-Slate-200">#e2e8f0</Color>
+    <Color x:Key="Color-Slate-300">#cbd5e1</Color>
+    <Color x:Key="Color-Slate-400">#94a3b8</Color>
+    <Color x:Key="Color-Slate-500">#64748b</Color>
+    <Color x:Key="Color-Slate-600">#475569</Color>
+    <Color x:Key="Color-Slate-700">#334155</Color>
+    <Color x:Key="Color-Slate-800">#1e293b</Color>
+    <Color x:Key="Color-Slate-900">#0f172a</Color>
+    <Color x:Key="Color-Slate-950">#020617</Color>
+    
+</ResourceDictionary>

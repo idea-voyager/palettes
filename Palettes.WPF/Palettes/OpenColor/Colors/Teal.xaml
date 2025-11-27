@@ -1,0 +1,16 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Color x:Key="Color-Teal-0">#e6fcf5</Color>
+    <Color x:Key="Color-Teal-1">#c3fae8</Color>
+    <Color x:Key="Color-Teal-2">#96f2d7</Color>
+    <Color x:Key="Color-Teal-3">#63e6be</Color>
+    <Color x:Key="Color-Teal-4">#38d9a9</Color>
+    <Color x:Key="Color-Teal-5">#20c997</Color>
+    <Color x:Key="Color-Teal-6">#12b886</Color>
+    <Color x:Key="Color-Teal-7">#0ca678</Color>
+    <Color x:Key="Color-Teal-8">#099268</Color>
+    <Color x:Key="Color-Teal-9">#087f5b</Color>
+    
+</ResourceDictionary>

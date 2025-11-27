@@ -1,0 +1,23 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/Gray.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-Gray-100" Color="{StaticResource Color-Gray-100}"/>
+    <SolidColorBrush x:Key="Brush-Gray-098" Color="{StaticResource Color-Gray-098}"/>
+    <SolidColorBrush x:Key="Brush-Gray-095" Color="{StaticResource Color-Gray-095}"/>
+    <SolidColorBrush x:Key="Brush-Gray-090" Color="{StaticResource Color-Gray-090}"/>
+    <SolidColorBrush x:Key="Brush-Gray-080" Color="{StaticResource Color-Gray-080}"/>
+    <SolidColorBrush x:Key="Brush-Gray-070" Color="{StaticResource Color-Gray-070}"/>
+    <SolidColorBrush x:Key="Brush-Gray-060" Color="{StaticResource Color-Gray-060}"/>
+    <SolidColorBrush x:Key="Brush-Gray-050" Color="{StaticResource Color-Gray-050}"/>
+    <SolidColorBrush x:Key="Brush-Gray-040" Color="{StaticResource Color-Gray-040}"/>
+    <SolidColorBrush x:Key="Brush-Gray-030" Color="{StaticResource Color-Gray-030}"/>
+    <SolidColorBrush x:Key="Brush-Gray-020" Color="{StaticResource Color-Gray-020}"/>
+    <SolidColorBrush x:Key="Brush-Gray-010" Color="{StaticResource Color-Gray-010}"/>
+    <SolidColorBrush x:Key="Brush-Gray-000" Color="{StaticResource Color-Gray-000}"/>
+    
+</ResourceDictionary>

@@ -1,0 +1,16 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Color x:Key="Color-Amber-050">#fffbeb</Color>
+    <Color x:Key="Color-Amber-100">#fef3c7</Color>
+    <Color x:Key="Color-Amber-200">#fde68a</Color>
+    <Color x:Key="Color-Amber-300">#fcd34d</Color>
+    <Color x:Key="Color-Amber-400">#fbbf24</Color>
+    <Color x:Key="Color-Amber-500">#f59e0b</Color>
+    <Color x:Key="Color-Amber-600">#d97706</Color>
+    <Color x:Key="Color-Amber-700">#b45309</Color>
+    <Color x:Key="Color-Amber-800">#92400e</Color>
+    <Color x:Key="Color-Amber-900">#78350f</Color>
+    <Color x:Key="Color-Amber-950">#451a03</Color>
+</ResourceDictionary>

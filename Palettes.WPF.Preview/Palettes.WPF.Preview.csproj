@@ -15,4 +15,22 @@
       <ProjectReference Include="..\Palettes.WPF\Palettes.WPF.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Page Update="Views\MaterialDesign3Palette.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+      <Page Update="Views\BootstrapPalette.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+      <Page Update="Views\OpenColorPalette.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+    </ItemGroup>
+
 </Project>

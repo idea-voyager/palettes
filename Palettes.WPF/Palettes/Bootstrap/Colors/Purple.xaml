@@ -1,0 +1,15 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Color x:Key="Color-Purple-100">#e2d9f3</Color>
+    <Color x:Key="Color-Purple-200">#c5b3e6</Color>
+    <Color x:Key="Color-Purple-300">#a98eda</Color>
+    <Color x:Key="Color-Purple-400">#8c68cd</Color>
+    <Color x:Key="Color-Purple-500">#6f42c1</Color>
+    <Color x:Key="Color-Purple-600">#59359a</Color>
+    <Color x:Key="Color-Purple-700">#432874</Color>
+    <Color x:Key="Color-Purple-800">#2c1a4d</Color>
+    <Color x:Key="Color-Purple-900">#160d27</Color>
+    
+</ResourceDictionary>

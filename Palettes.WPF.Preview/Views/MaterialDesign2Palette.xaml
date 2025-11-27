@@ -1,0 +1,412 @@
+﻿<UserControl
+    x:Class="PatioCode.Palettes.WPF.Preview.Views.MaterialDesign2Palette"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:c="clr-namespace:PatioCode.Palettes.WPF.Preview.Controls"
+    mc:Ignorable="d"
+    d:DesignHeight="1500"
+    d:DesignWidth="1000">
+    
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/PatioCode.Palettes.WPF;component/Palettes/MaterialDesign2.Brushes.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        
+        <c:Hyperlink
+            Content="https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors"/>
+        
+        <ScrollViewer
+            Grid.Row="1"
+            HorizontalScrollBarVisibility="Auto"
+            VerticalScrollBarVisibility="Auto">
+            
+            <StackPanel
+                Orientation="Vertical"
+                HorizontalAlignment="Center">
+                
+                <StackPanel.Resources>
+                    <Style
+                        TargetType="{x:Type Border}"
+                        BasedOn="{StaticResource Border-Color}">
+                    </Style>
+                    <Style TargetType="{x:Type StackPanel}">
+                        <Setter Property="Orientation" Value="Horizontal"/>
+                    </Style>
+                    <Style
+                        TargetType="{x:Type TextBlock}"
+                        BasedOn="{StaticResource TextBlock-Label}">
+                    </Style>
+                </StackPanel.Resources>
+                
+                <StackPanel>
+                    <StackPanel.Resources>
+                        <Style
+                            TargetType="TextBlock"
+                            BasedOn="{StaticResource {x:Type TextBlock}}">
+                            <Setter Property="TextAlignment" Value="Center"/>
+                            <Setter Property="Width" Value="50"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <TextBlock Style="{StaticResource TextBlock-ColorName}"/>
+                    <TextBlock Text="50"/>
+                    <TextBlock Text="100"/>
+                    <TextBlock Text="200"/>
+                    <TextBlock Text="300"/>
+                    <TextBlock Text="400"/>
+                    <TextBlock Text="500"/>
+                    <TextBlock Text="600"/>
+                    <TextBlock Text="700"/>
+                    <TextBlock Text="800"/>
+                    <TextBlock Text="900"/>
+                    <TextBlock Text="A100"/>
+                    <TextBlock Text="A200"/>
+                    <TextBlock Text="A400"/>
+                    <TextBlock Text="A700"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="Red" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-Red-050}"/>
+                    <Border Background="{StaticResource Brush-Red-100}"/>
+                    <Border Background="{StaticResource Brush-Red-200}"/>
+                    <Border Background="{StaticResource Brush-Red-300}"/>
+                    <Border Background="{StaticResource Brush-Red-400}"/>
+                    <Border Background="{StaticResource Brush-Red-500}"/>
+                    <Border Background="{StaticResource Brush-Red-600}"/>
+                    <Border Background="{StaticResource Brush-Red-700}"/>
+                    <Border Background="{StaticResource Brush-Red-800}"/>
+                    <Border Background="{StaticResource Brush-Red-900}"/>
+                    <Border Background="{StaticResource Brush-Red-A100}"/>
+                    <Border Background="{StaticResource Brush-Red-A200}"/>
+                    <Border Background="{StaticResource Brush-Red-A400}"/>
+                    <Border Background="{StaticResource Brush-Red-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="Pink" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-Pink-050}"/>
+                    <Border Background="{StaticResource Brush-Pink-100}"/>
+                    <Border Background="{StaticResource Brush-Pink-200}"/>
+                    <Border Background="{StaticResource Brush-Pink-300}"/>
+                    <Border Background="{StaticResource Brush-Pink-400}"/>
+                    <Border Background="{StaticResource Brush-Pink-500}"/>
+                    <Border Background="{StaticResource Brush-Pink-600}"/>
+                    <Border Background="{StaticResource Brush-Pink-700}"/>
+                    <Border Background="{StaticResource Brush-Pink-800}"/>
+                    <Border Background="{StaticResource Brush-Pink-900}"/>
+                    <Border Background="{StaticResource Brush-Pink-A100}"/>
+                    <Border Background="{StaticResource Brush-Pink-A200}"/>
+                    <Border Background="{StaticResource Brush-Pink-A400}"/>
+                    <Border Background="{StaticResource Brush-Pink-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="Purple" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-Purple-050}"/>
+                    <Border Background="{StaticResource Brush-Purple-100}"/>
+                    <Border Background="{StaticResource Brush-Purple-200}"/>
+                    <Border Background="{StaticResource Brush-Purple-300}"/>
+                    <Border Background="{StaticResource Brush-Purple-400}"/>
+                    <Border Background="{StaticResource Brush-Purple-500}"/>
+                    <Border Background="{StaticResource Brush-Purple-600}"/>
+                    <Border Background="{StaticResource Brush-Purple-700}"/>
+                    <Border Background="{StaticResource Brush-Purple-800}"/>
+                    <Border Background="{StaticResource Brush-Purple-900}"/>
+                    <Border Background="{StaticResource Brush-Purple-A100}"/>
+                    <Border Background="{StaticResource Brush-Purple-A200}"/>
+                    <Border Background="{StaticResource Brush-Purple-A400}"/>
+                    <Border Background="{StaticResource Brush-Purple-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="DeepPurple" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-DeepPurple-050}"/>
+                    <Border Background="{StaticResource Brush-DeepPurple-100}"/>
+                    <Border Background="{StaticResource Brush-DeepPurple-200}"/>
+                    <Border Background="{StaticResource Brush-DeepPurple-300}"/>
+                    <Border Background="{StaticResource Brush-DeepPurple-400}"/>
+                    <Border Background="{StaticResource Brush-DeepPurple-500}"/>
+                    <Border Background="{StaticResource Brush-DeepPurple-600}"/>
+                    <Border Background="{StaticResource Brush-DeepPurple-700}"/>
+                    <Border Background="{StaticResource Brush-DeepPurple-800}"/>
+                    <Border Background="{StaticResource Brush-DeepPurple-900}"/>
+                    <Border Background="{StaticResource Brush-DeepPurple-A100}"/>
+                    <Border Background="{StaticResource Brush-DeepPurple-A200}"/>
+                    <Border Background="{StaticResource Brush-DeepPurple-A400}"/>
+                    <Border Background="{StaticResource Brush-DeepPurple-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="Indigo" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-Indigo-050}"/>
+                    <Border Background="{StaticResource Brush-Indigo-100}"/>
+                    <Border Background="{StaticResource Brush-Indigo-200}"/>
+                    <Border Background="{StaticResource Brush-Indigo-300}"/>
+                    <Border Background="{StaticResource Brush-Indigo-400}"/>
+                    <Border Background="{StaticResource Brush-Indigo-500}"/>
+                    <Border Background="{StaticResource Brush-Indigo-600}"/>
+                    <Border Background="{StaticResource Brush-Indigo-700}"/>
+                    <Border Background="{StaticResource Brush-Indigo-800}"/>
+                    <Border Background="{StaticResource Brush-Indigo-900}"/>
+                    <Border Background="{StaticResource Brush-Indigo-A100}"/>
+                    <Border Background="{StaticResource Brush-Indigo-A200}"/>
+                    <Border Background="{StaticResource Brush-Indigo-A400}"/>
+                    <Border Background="{StaticResource Brush-Indigo-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="Blue" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-Blue-050}"/>
+                    <Border Background="{StaticResource Brush-Blue-100}"/>
+                    <Border Background="{StaticResource Brush-Blue-200}"/>
+                    <Border Background="{StaticResource Brush-Blue-300}"/>
+                    <Border Background="{StaticResource Brush-Blue-400}"/>
+                    <Border Background="{StaticResource Brush-Blue-500}"/>
+                    <Border Background="{StaticResource Brush-Blue-600}"/>
+                    <Border Background="{StaticResource Brush-Blue-700}"/>
+                    <Border Background="{StaticResource Brush-Blue-800}"/>
+                    <Border Background="{StaticResource Brush-Blue-900}"/>
+                    <Border Background="{StaticResource Brush-Blue-A100}"/>
+                    <Border Background="{StaticResource Brush-Blue-A200}"/>
+                    <Border Background="{StaticResource Brush-Blue-A400}"/>
+                    <Border Background="{StaticResource Brush-Blue-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="LightBlue" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-LightBlue-050}"/>
+                    <Border Background="{StaticResource Brush-LightBlue-100}"/>
+                    <Border Background="{StaticResource Brush-LightBlue-200}"/>
+                    <Border Background="{StaticResource Brush-LightBlue-300}"/>
+                    <Border Background="{StaticResource Brush-LightBlue-400}"/>
+                    <Border Background="{StaticResource Brush-LightBlue-500}"/>
+                    <Border Background="{StaticResource Brush-LightBlue-600}"/>
+                    <Border Background="{StaticResource Brush-LightBlue-700}"/>
+                    <Border Background="{StaticResource Brush-LightBlue-800}"/>
+                    <Border Background="{StaticResource Brush-LightBlue-900}"/>
+                    <Border Background="{StaticResource Brush-LightBlue-A100}"/>
+                    <Border Background="{StaticResource Brush-LightBlue-A200}"/>
+                    <Border Background="{StaticResource Brush-LightBlue-A400}"/>
+                    <Border Background="{StaticResource Brush-LightBlue-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="Cyan" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-Cyan-050}"/>
+                    <Border Background="{StaticResource Brush-Cyan-100}"/>
+                    <Border Background="{StaticResource Brush-Cyan-200}"/>
+                    <Border Background="{StaticResource Brush-Cyan-300}"/>
+                    <Border Background="{StaticResource Brush-Cyan-400}"/>
+                    <Border Background="{StaticResource Brush-Cyan-500}"/>
+                    <Border Background="{StaticResource Brush-Cyan-600}"/>
+                    <Border Background="{StaticResource Brush-Cyan-700}"/>
+                    <Border Background="{StaticResource Brush-Cyan-800}"/>
+                    <Border Background="{StaticResource Brush-Cyan-900}"/>
+                    <Border Background="{StaticResource Brush-Cyan-A100}"/>
+                    <Border Background="{StaticResource Brush-Cyan-A200}"/>
+                    <Border Background="{StaticResource Brush-Cyan-A400}"/>
+                    <Border Background="{StaticResource Brush-Cyan-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="Teal" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-Teal-050}"/>
+                    <Border Background="{StaticResource Brush-Teal-100}"/>
+                    <Border Background="{StaticResource Brush-Teal-200}"/>
+                    <Border Background="{StaticResource Brush-Teal-300}"/>
+                    <Border Background="{StaticResource Brush-Teal-400}"/>
+                    <Border Background="{StaticResource Brush-Teal-500}"/>
+                    <Border Background="{StaticResource Brush-Teal-600}"/>
+                    <Border Background="{StaticResource Brush-Teal-700}"/>
+                    <Border Background="{StaticResource Brush-Teal-800}"/>
+                    <Border Background="{StaticResource Brush-Teal-900}"/>
+                    <Border Background="{StaticResource Brush-Teal-A100}"/>
+                    <Border Background="{StaticResource Brush-Teal-A200}"/>
+                    <Border Background="{StaticResource Brush-Teal-A400}"/>
+                    <Border Background="{StaticResource Brush-Teal-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="Green" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-Green-050}"/>
+                    <Border Background="{StaticResource Brush-Green-100}"/>
+                    <Border Background="{StaticResource Brush-Green-200}"/>
+                    <Border Background="{StaticResource Brush-Green-300}"/>
+                    <Border Background="{StaticResource Brush-Green-400}"/>
+                    <Border Background="{StaticResource Brush-Green-500}"/>
+                    <Border Background="{StaticResource Brush-Green-600}"/>
+                    <Border Background="{StaticResource Brush-Green-700}"/>
+                    <Border Background="{StaticResource Brush-Green-800}"/>
+                    <Border Background="{StaticResource Brush-Green-900}"/>
+                    <Border Background="{StaticResource Brush-Green-A100}"/>
+                    <Border Background="{StaticResource Brush-Green-A200}"/>
+                    <Border Background="{StaticResource Brush-Green-A400}"/>
+                    <Border Background="{StaticResource Brush-Green-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="LightGreen" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-LightGreen-050}"/>
+                    <Border Background="{StaticResource Brush-LightGreen-100}"/>
+                    <Border Background="{StaticResource Brush-LightGreen-200}"/>
+                    <Border Background="{StaticResource Brush-LightGreen-300}"/>
+                    <Border Background="{StaticResource Brush-LightGreen-400}"/>
+                    <Border Background="{StaticResource Brush-LightGreen-500}"/>
+                    <Border Background="{StaticResource Brush-LightGreen-600}"/>
+                    <Border Background="{StaticResource Brush-LightGreen-700}"/>
+                    <Border Background="{StaticResource Brush-LightGreen-800}"/>
+                    <Border Background="{StaticResource Brush-LightGreen-900}"/>
+                    <Border Background="{StaticResource Brush-LightGreen-A100}"/>
+                    <Border Background="{StaticResource Brush-LightGreen-A200}"/>
+                    <Border Background="{StaticResource Brush-LightGreen-A400}"/>
+                    <Border Background="{StaticResource Brush-LightGreen-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="Lime" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-Lime-050}"/>
+                    <Border Background="{StaticResource Brush-Lime-100}"/>
+                    <Border Background="{StaticResource Brush-Lime-200}"/>
+                    <Border Background="{StaticResource Brush-Lime-300}"/>
+                    <Border Background="{StaticResource Brush-Lime-400}"/>
+                    <Border Background="{StaticResource Brush-Lime-500}"/>
+                    <Border Background="{StaticResource Brush-Lime-600}"/>
+                    <Border Background="{StaticResource Brush-Lime-700}"/>
+                    <Border Background="{StaticResource Brush-Lime-800}"/>
+                    <Border Background="{StaticResource Brush-Lime-900}"/>
+                    <Border Background="{StaticResource Brush-Lime-A100}"/>
+                    <Border Background="{StaticResource Brush-Lime-A200}"/>
+                    <Border Background="{StaticResource Brush-Lime-A400}"/>
+                    <Border Background="{StaticResource Brush-Lime-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="Yellow" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-Yellow-050}"/>
+                    <Border Background="{StaticResource Brush-Yellow-100}"/>
+                    <Border Background="{StaticResource Brush-Yellow-200}"/>
+                    <Border Background="{StaticResource Brush-Yellow-300}"/>
+                    <Border Background="{StaticResource Brush-Yellow-400}"/>
+                    <Border Background="{StaticResource Brush-Yellow-500}"/>
+                    <Border Background="{StaticResource Brush-Yellow-600}"/>
+                    <Border Background="{StaticResource Brush-Yellow-700}"/>
+                    <Border Background="{StaticResource Brush-Yellow-800}"/>
+                    <Border Background="{StaticResource Brush-Yellow-900}"/>
+                    <Border Background="{StaticResource Brush-Yellow-A100}"/>
+                    <Border Background="{StaticResource Brush-Yellow-A200}"/>
+                    <Border Background="{StaticResource Brush-Yellow-A400}"/>
+                    <Border Background="{StaticResource Brush-Yellow-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="Amber" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-Amber-050}"/>
+                    <Border Background="{StaticResource Brush-Amber-100}"/>
+                    <Border Background="{StaticResource Brush-Amber-200}"/>
+                    <Border Background="{StaticResource Brush-Amber-300}"/>
+                    <Border Background="{StaticResource Brush-Amber-400}"/>
+                    <Border Background="{StaticResource Brush-Amber-500}"/>
+                    <Border Background="{StaticResource Brush-Amber-600}"/>
+                    <Border Background="{StaticResource Brush-Amber-700}"/>
+                    <Border Background="{StaticResource Brush-Amber-800}"/>
+                    <Border Background="{StaticResource Brush-Amber-900}"/>
+                    <Border Background="{StaticResource Brush-Amber-A100}"/>
+                    <Border Background="{StaticResource Brush-Amber-A200}"/>
+                    <Border Background="{StaticResource Brush-Amber-A400}"/>
+                    <Border Background="{StaticResource Brush-Amber-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="Orange" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-Orange-050}"/>
+                    <Border Background="{StaticResource Brush-Orange-100}"/>
+                    <Border Background="{StaticResource Brush-Orange-200}"/>
+                    <Border Background="{StaticResource Brush-Orange-300}"/>
+                    <Border Background="{StaticResource Brush-Orange-400}"/>
+                    <Border Background="{StaticResource Brush-Orange-500}"/>
+                    <Border Background="{StaticResource Brush-Orange-600}"/>
+                    <Border Background="{StaticResource Brush-Orange-700}"/>
+                    <Border Background="{StaticResource Brush-Orange-800}"/>
+                    <Border Background="{StaticResource Brush-Orange-900}"/>
+                    <Border Background="{StaticResource Brush-Orange-A100}"/>
+                    <Border Background="{StaticResource Brush-Orange-A200}"/>
+                    <Border Background="{StaticResource Brush-Orange-A400}"/>
+                    <Border Background="{StaticResource Brush-Orange-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="DeepOrange" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-DeepOrange-050}"/>
+                    <Border Background="{StaticResource Brush-DeepOrange-100}"/>
+                    <Border Background="{StaticResource Brush-DeepOrange-200}"/>
+                    <Border Background="{StaticResource Brush-DeepOrange-300}"/>
+                    <Border Background="{StaticResource Brush-DeepOrange-400}"/>
+                    <Border Background="{StaticResource Brush-DeepOrange-500}"/>
+                    <Border Background="{StaticResource Brush-DeepOrange-600}"/>
+                    <Border Background="{StaticResource Brush-DeepOrange-700}"/>
+                    <Border Background="{StaticResource Brush-DeepOrange-800}"/>
+                    <Border Background="{StaticResource Brush-DeepOrange-900}"/>
+                    <Border Background="{StaticResource Brush-DeepOrange-A100}"/>
+                    <Border Background="{StaticResource Brush-DeepOrange-A200}"/>
+                    <Border Background="{StaticResource Brush-DeepOrange-A400}"/>
+                    <Border Background="{StaticResource Brush-DeepOrange-A700}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="Brown" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-Brown-050}"/>
+                    <Border Background="{StaticResource Brush-Brown-100}"/>
+                    <Border Background="{StaticResource Brush-Brown-200}"/>
+                    <Border Background="{StaticResource Brush-Brown-300}"/>
+                    <Border Background="{StaticResource Brush-Brown-400}"/>
+                    <Border Background="{StaticResource Brush-Brown-500}"/>
+                    <Border Background="{StaticResource Brush-Brown-600}"/>
+                    <Border Background="{StaticResource Brush-Brown-700}"/>
+                    <Border Background="{StaticResource Brush-Brown-800}"/>
+                    <Border Background="{StaticResource Brush-Brown-900}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="Gray" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-Gray-050}"/>
+                    <Border Background="{StaticResource Brush-Gray-100}"/>
+                    <Border Background="{StaticResource Brush-Gray-200}"/>
+                    <Border Background="{StaticResource Brush-Gray-300}"/>
+                    <Border Background="{StaticResource Brush-Gray-400}"/>
+                    <Border Background="{StaticResource Brush-Gray-500}"/>
+                    <Border Background="{StaticResource Brush-Gray-600}"/>
+                    <Border Background="{StaticResource Brush-Gray-700}"/>
+                    <Border Background="{StaticResource Brush-Gray-800}"/>
+                    <Border Background="{StaticResource Brush-Gray-900}"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="BlueGray" Style="{StaticResource TextBlock-ColorName}"/>
+                    <Border Background="{StaticResource Brush-BlueGray-050}"/>
+                    <Border Background="{StaticResource Brush-BlueGray-100}"/>
+                    <Border Background="{StaticResource Brush-BlueGray-200}"/>
+                    <Border Background="{StaticResource Brush-BlueGray-300}"/>
+                    <Border Background="{StaticResource Brush-BlueGray-400}"/>
+                    <Border Background="{StaticResource Brush-BlueGray-500}"/>
+                    <Border Background="{StaticResource Brush-BlueGray-600}"/>
+                    <Border Background="{StaticResource Brush-BlueGray-700}"/>
+                    <Border Background="{StaticResource Brush-BlueGray-800}"/>
+                    <Border Background="{StaticResource Brush-BlueGray-900}"/>
+                </StackPanel>
+                
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

@@ -1,0 +1,23 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Colors/Purple.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <SolidColorBrush x:Key="Brush-Purple-100" Color="{StaticResource Color-Purple-100}"/>
+    <SolidColorBrush x:Key="Brush-Purple-098" Color="{StaticResource Color-Purple-098}"/>
+    <SolidColorBrush x:Key="Brush-Purple-095" Color="{StaticResource Color-Purple-095}"/>
+    <SolidColorBrush x:Key="Brush-Purple-090" Color="{StaticResource Color-Purple-090}"/>
+    <SolidColorBrush x:Key="Brush-Purple-080" Color="{StaticResource Color-Purple-080}"/>
+    <SolidColorBrush x:Key="Brush-Purple-070" Color="{StaticResource Color-Purple-070}"/>
+    <SolidColorBrush x:Key="Brush-Purple-060" Color="{StaticResource Color-Purple-060}"/>
+    <SolidColorBrush x:Key="Brush-Purple-050" Color="{StaticResource Color-Purple-050}"/>
+    <SolidColorBrush x:Key="Brush-Purple-040" Color="{StaticResource Color-Purple-040}"/>
+    <SolidColorBrush x:Key="Brush-Purple-030" Color="{StaticResource Color-Purple-030}"/>
+    <SolidColorBrush x:Key="Brush-Purple-020" Color="{StaticResource Color-Purple-020}"/>
+    <SolidColorBrush x:Key="Brush-Purple-010" Color="{StaticResource Color-Purple-010}"/>
+    <SolidColorBrush x:Key="Brush-Purple-000" Color="{StaticResource Color-Purple-000}"/>
+    
+</ResourceDictionary>

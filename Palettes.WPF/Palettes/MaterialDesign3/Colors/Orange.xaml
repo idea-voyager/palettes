@@ -1,0 +1,19 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Color x:Key="Color-Orange-100">#FFFFFF</Color>
+    <Color x:Key="Color-Orange-098">#FFF8F4</Color>
+    <Color x:Key="Color-Orange-095">#FFEDE1</Color>
+    <Color x:Key="Color-Orange-090">#FFDCC3</Color>
+    <Color x:Key="Color-Orange-080">#FFB683</Color>
+    <Color x:Key="Color-Orange-070">#FF8D41</Color>
+    <Color x:Key="Color-Orange-060">#E86E00</Color>
+    <Color x:Key="Color-Orange-050">#C05A01</Color>
+    <Color x:Key="Color-Orange-040">#9A4600</Color>
+    <Color x:Key="Color-Orange-030">#753403</Color>
+    <Color x:Key="Color-Orange-020">#522302</Color>
+    <Color x:Key="Color-Orange-010">#321200</Color>
+    <Color x:Key="Color-Orange-000">#000000</Color>
+    
+</ResourceDictionary>
