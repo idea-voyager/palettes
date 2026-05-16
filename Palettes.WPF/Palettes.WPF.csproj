@@ -9,6 +9,12 @@
         <UseWPF>true</UseWPF>
         <AssemblyName>PatioCode.Palettes.WPF</AssemblyName>
         <RootNamespace>PatioCode.Palettes.WPF</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Description>Set of popular palettes for WPF</Description>
+        <Copyright>Copyright © Sergei Petrov</Copyright>
+        <PackageProjectUrl>https://github.com/idea-voyager/palettes</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/idea-voyager/palettes/blob/main/LICENSE</PackageLicenseUrl>
+        <PackageTags>WPF;Palette;Color;Tailwind;Bootstrap;Material Design;MaterialDesign;Open Color;Color</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
